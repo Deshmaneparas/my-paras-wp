@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background-color: #f0f2f5;
+
+}
+.smiley{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.6rem;
+}
+.plus{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.6rem;
+}
+.message{
+  width: 48.9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 3rem;
+}
+.message > input{
+  border-color: transparent;
+  font-size: 1.2rem;
+  color: gray;
+  background-color: white;
+  border-radius: 10px;
+}
+.speaker{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.6rem;
+}
